@@ -1,0 +1,62 @@
+//-index.pug
+
+doctype html
+html 
+    head
+        title Divyanshu Singing Academy
+        style 
+            include ../static/style.css 
+    body 
+        nav#navbar.top
+            ul
+                div#logo
+                    img(src="/static/logo.jpg", alt="")
+                    | DSA
+                li #[a(href="/") Home]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services]
+                li #[a(href="/") Join Our classes]
+                li #[a(href="/") Contact Us ]
+
+        section#introSection
+            div Welcome!! to Divyanshu's Singing Academy
+            span#small "Sing your heart out"
+
+        section#missionSection
+            h3 Our mission
+            div.cardContainer
+                div.card
+                    h4 Sur
+                    div.card-box
+                        div.card-img
+                            img(src="/static/1.jfif", alt="")
+                        div.card-content
+                            p  Nikal pade hum suron ki baazar mein, socha 7 swara khareed len...phi pata chala ki ye paison se nahi balki saadhna se milte hain
+                div.card
+                    h4 Taal
+                    div.card-box
+                        div.card-img
+                            img(src="/static/2.jfif", alt="")
+                        div.card-content
+                            p  Ek baar besura chal sakta hai par betala kabhi nahi chalta
+                div.card
+                    h4 Tanpura
+                    div.card-box
+                        div.card-img
+                            img(src="/static/3.jpg", alt="")
+                        div.card-content
+                            p  Practicing sura on tanpura helps in developing the understanding of sound naturally which is unmatchable when compared to practicing sura on harmonium
+
+        section#alumniSection
+            h3 Notable &nbsp;Alumni
+            div#alumini
+                img(src="../static/alumni/alumni-1.jpg", alt="" class="alumImage")
+                img(src="../static/alumni/alumni-2.jpg", alt="" class="alumImage")
+                img(src="../static/alumni/alumni-3.jpg", alt="" class="alumImage")
+
+        footer#footer
+            | Copyright © 2023 &nbsp; | &nbsp; All Rights Reserved &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [ Developed by Divyanshu Srivastava Phone:-8127615528 ]
+
+
+        script 
+            include ../static/index.js
